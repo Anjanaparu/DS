@@ -111,7 +111,7 @@ if(myNode)
 for(i=0;i<myNode->count;i++)
 {
 traversal(myNode->link[i]);
-printf("%d",myNode->val[i+1]);
+printf(" %d ",myNode->val[i+1]);
 }
 traversal(myNode->link[i]);
 }
